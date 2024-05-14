@@ -1,0 +1,40 @@
+theme = "adwaita-dark"
+
+editor.mouse = true
+
+editor.cursorline = true
+
+[editor.statusline]
+right = [
+  "version-control",
+  "diagnostics",
+  "selections",
+  "register",
+  "position",
+  "file-encoding"
+]
+mode.normal = "Normal"
+mode.insert = "Insert"
+mode.select = "Select"
+
+[editor.lsp]
+display-messages = true
+
+[editor.file-picker]
+hidden = false
+
+[editor.indent-guides]
+render = true
+skip-levels = 1
+
+[keys.normal]
+C-s = ":w"
+C-h = ":config-reload"
+A-e = ":wq"
+C-A-e =":q!"
+
+[keys.insert]
+C-s = ":w"
+C-h = ":config-reload"
+A-e = ":wq"
+C-A-e = ":q!"
