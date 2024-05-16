@@ -1,7 +1,5 @@
 theme = "adwaita-dark"
 
-editor.mouse = true
-
 editor.cursorline = true
 
 [editor.statusline]
